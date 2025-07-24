@@ -15,10 +15,14 @@ const Contact = () => {
     setLoading(true);
 
     try {
-      const res = await fetch(`${import.meta.env.VITE_API_URL}/api/contact`, {
+      const res = await fetch("https://formspree.io/f/xwpqopjw", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
+        body: JSON.stringify({
+          nombre: form.nombre,
+          email: form.email,
+          mensaje: form.mensaje,
+        }),
       });
 
       if (res.ok) {
@@ -74,7 +78,9 @@ const Contact = () => {
           <div className="contact-modal-content" onClick={(e) => e.stopPropagation()}>
             <h2 className="contact-modal-title">¡Gracias por tu mensaje!</h2>
             <p className="contact-modal-text">Nos pondremos en contacto pronto.</p>
-            <button className="contact-modal-button" onClick={closeModal}>Cerrar</button>
+            <button className="contact-modal-button" onClick={closeModal}>
+              Cerrar
+            </button>
           </div>
         </div>
       )}
