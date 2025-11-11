@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import "./Stats.css";
 
 const countersData = [
-  { label: "Productores", count: 40 },
+  { label: "Productores", count: 50 },
   { label: "Pólizas activas", count: 10000 },
-  { label: "Asegurados tranquilos", count: 5000 },
+  { label: "Años en el mercado ", count: 30 },
 ];
 
 const Stats = () => {
