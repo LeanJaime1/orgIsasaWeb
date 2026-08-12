@@ -1,0 +1,143 @@
+/* --- FUENTES --- */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, .nav-links a {
+  font-family: Georgia, serif;
+}
+
+/* --- HEADER GENERAL --- */
+.header {
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  height: 80px;
+}
+
+/* --- LOGO --- */
+.logo img {
+  height: 70px;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.2s ease;
+}
+
+.logo img:hover {
+  transform: scale(1.03);
+}
+
+/* --- NAVEGACIÓN DESKTOP --- */
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+}
+
+.nav-links a {
+  color: #000e4d;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #0066cc;
+}
+
+/* --- MENU TOGGLE --- */
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: #003366;
+  margin: 5px 0;
+  transition: all 0.3s ease;
+}
+
+.close-icon {
+  font-size: 28px;
+  color: #003366;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 0;             /* alineado a la derecha */
+    width: 140px;         /* ancho fijo cómodo */
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    z-index: 99;
+    border-left: 1px solid #ccc; /* un borde para separar visualmente */
+    border-bottom-left-radius: 8px;
+    padding: 0;           /* sin padding extra */
+    margin: 0;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0;           /* sin padding para no aumentar espacio */
+    margin: 0;
+    gap: 0;
+    width: 100%;          /* ocupa todo el ancho del menú */
+  }
+
+  .nav-links li {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-links a {
+    display: block;
+    width: 100%;
+    padding: 12px 16px;   /* espacio cómodo interno */
+    margin: 0;
+    text-align: center;
+    font-size: 1.05rem;
+    box-sizing: border-box;
+    color: #000e4d;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .nav-links a:hover {
+    color: #0066cc;
+  }
+
+  .logo img {
+    height: 50px;
+  }
+}
