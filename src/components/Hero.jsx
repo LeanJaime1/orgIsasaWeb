@@ -110,7 +110,7 @@ export default function Hero() {
               className="w-full h-full rounded-3xl overflow-hidden shadow-2xl border border-slate-100"
             >
               <img
-                src="src/assets/banner.jpg"
+                src="banner.jpg"
                 alt="Familia protegida en su hogar"
                 className="w-full h-full object-cover"
               />

@@ -19,7 +19,7 @@ const Us = () => {
           >
             <div className="w-full h-full rounded-3xl overflow-hidden shadow-2xl border border-slate-100">
               <img
-                src="src/assets/companies/us.jpg"
+                src="us.jpg"
                 alt="Sobre Nosotros"
                 className="w-full h-full object-cover"
               />

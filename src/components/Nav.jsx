@@ -16,7 +16,7 @@ function Nav() {
       <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12 py-4 flex items-center justify-between">
         <a href="index.html" className="flex-shrink-0">
           <img
-            src="src/assets/logo.png"
+            src="logo.png"
             alt="Logo Organización Isasa"
             className="h-12 w-auto object-contain"
           />
