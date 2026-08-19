@@ -19,7 +19,7 @@ const Footer = () => {
 
             <div className="flex items-center gap-3">
               <a
-                href="#instagram"
+                href="https://www.instagram.com/organizacionisasa/"
                 className="w-10 h-10 rounded-full bg-white/5 hover:bg-gradient-to-tr hover:from-[#f09433] hover:via-[#dc2743] hover:to-[#bc1888] flex items-center justify-center text-slate-300 hover:text-white transition-all duration-300 border border-white/5"
               >
                 <svg
@@ -38,7 +38,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="#linkedin"
+                href="https://www.linkedin.com/in/organizacion-isasa-4438a6366/"
                 className="w-10 h-10 rounded-full bg-white/5 hover:bg-[#0077b5] flex items-center justify-center text-slate-300 hover:text-white transition-all duration-300 border border-white/5"
               >
                 <svg
@@ -151,18 +151,10 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#coberturas"
+                    href="#elements"
                     className="hover:text-white transition-colors duration-200"
                   >
                     Coberturas
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#contacto"
-                    className="hover:text-white transition-colors duration-200"
-                  >
-                    Riesgos
                   </a>
                 </li>
               </ul>
