@@ -7,7 +7,7 @@ const Footer = () => {
           <div className="flex flex-col items-start">
             <div className="flex items-center gap-3 mb-6">
               <img
-                src="src/assets/logo-footer.png"
+                src="logo-footer.png"
                 alt="Logo Organización Isasa"
                 className="h-16 sm:h-20 w-auto object-contain"
               />
