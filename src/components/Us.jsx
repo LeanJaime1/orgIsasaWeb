@@ -44,7 +44,7 @@ const Us = () => {
 
               <div>
                 <p className="font-bold text-lg sm:text-xl leading-tight">
-                  Desde 2009
+                  Desde 2010
                 </p>
                 <p className="text-xs sm:text-sm text-slate-300 mt-1">
                   Junto a nuestros productores.
