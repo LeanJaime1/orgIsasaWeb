@@ -1,28 +1,23 @@
-import React from "react";
-import Header from "./assets/components/Header/Header";
-import Hero from "./assets/components/Hero/Hero";
-import Us from "./assets/components/Us/Us";
-import Benefits from "./assets/components/Benefits/Benefits";
-import Services from "./assets/components/Services/Services";
-import Stats from "./assets/components/Stats/Stats";
-import Companies from "./assets/components/Companies/Companies";
-import Contact from "./assets/components/Contact/Contact";
-import Modal from "./assets/components/Modal/Modal";
-import Footer from "./assets/components/Footer/Footer";
+import Nav from './components/Nav.jsx'
+import Hero from './components/Hero.jsx'
+import Companies from './components/Companies.jsx'
+import Us from './components/Us.jsx'
+import Benefits from './components/Benefits.jsx'
+import Elements from './components/Elements.jsx'
+import Contact from './components/Contact.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
   return (
     <>
-      <Header />
-      <Hero />
-      <Companies />
-      <Us />
-      <Stats />
-      <Benefits />
-      <Services />
-      <Contact />
-      <Modal />
-      <Footer />
+     <Nav />
+     <Hero />
+     <Companies />
+     <Us />
+     <Benefits />
+     <Elements />
+     <Contact />
+     <Footer />
     </>
   );
 }
