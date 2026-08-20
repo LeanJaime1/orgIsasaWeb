@@ -240,7 +240,7 @@ const Elements = () => {
               <motion.div
                 key={index}
                 variants={itemVariants}
-                className="group bg-gray-50 p-8 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col items-start text-left cursor-pointer hover:bg-white hover:border-blue-100"
+                className="group bg-gray-50 p-8 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col items-start text-left hover:bg-white hover:border-blue-100"
               >
                 <div className="w-12 h-12 rounded-xl bg-blue-50 group-hover:bg-blue-600 transition-all duration-300 flex items-center justify-center mb-6 flex-shrink-0">
                   {element.icon}
