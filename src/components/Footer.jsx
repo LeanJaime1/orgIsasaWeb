@@ -119,7 +119,7 @@ const Footer = () => {
                   <circle cx="12" cy="10" r="3" />
                 </svg>
                 <span>
-                  Av. Corrientes 1217, Piso 8<br />
+                  Av. Belgrano 1217, Piso 8, Oficina 83<br />
                   Ciudad Autónoma de Buenos Aires
                 </span>
               </li>

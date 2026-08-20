@@ -23,7 +23,6 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    // Reemplazá con tus claves obtenidas en emailjs.com
     const SERVICE_ID = "service_ymby2yi";
     const TEMPLATE_ID = "template_poia2s6";
     const PUBLIC_KEY = "qeUU-k58BsLsFSVvs";
@@ -134,7 +133,7 @@ const Contact = () => {
                     Oficina
                   </p>
                   <p className="text-sm font-bold text-gray-900 mt-0.5">
-                    Av. Corrientes 1217, Piso 8 · CABA
+                    Av. Belgrano 1217, Piso 8, Oficina 83· CABA
                   </p>
                 </div>
               </div>
