@@ -210,7 +210,7 @@ const Footer = () => {
           <p className="text-center sm:text-right">
             Diseño y desarrollo web por {" "}
             <a
-              href="https://portfolio-mu-six-jk4yrpz8o1.vercel.app/"
+              href="https://leandrojaime.com.ar"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-200 font-medium hover:text-[#0066cc] transition-colors duration-200 inline-flex items-center gap-1 underline underline-offset-4 decoration-slate-700 hover:decoration-[#0066cc]"
