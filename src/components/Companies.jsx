@@ -1,15 +1,16 @@
 const Companies = () => {
   const companies = [
+    { nombre: "Sancor", logo: "/sancor.png" },
     { nombre: "ATM", logo: "/atm.png" },
+    { nombre: "San Cristóbal", logo: "/san-cristobal.png" },
     { nombre: "Beneficio", logo: "/beneficio.png" },
+    { nombre: "San Patricio", logo: "/san-patricio.png" },
+    { nombre: "Rus", logo: "/rus.png" },
+    { nombre: "Holando", logo: "/holando.png" },
     { nombre: "Equidad", logo: "/equidad.png" },
     { nombre: "Euroamerica", logo: "/euroamerica.png" },
-    { nombre: "Holando", logo: "/holando.png" },
-    { nombre: "Prof Seguros", logo: "/prof-seguros.png" },
-    { nombre: "Rus", logo: "/rus.png" },
-    { nombre: "Sancor", logo: "/sancor.png" },
-    { nombre: "San Cristóbal", logo: "/san-cristobal.png" },
-    { nombre: "Digna", logo: "/digna.png" }
+    { nombre: "Providencia Seguros", logo: "/providencia.png" },
+    { nombre: "Digna", logo: "/digna.png" },
   ];
 
   const marqueeList = [...companies, ...companies];
